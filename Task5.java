@@ -1,6 +1,6 @@
 public class Task5 {
     public static void main(String[] args) {
-        String text1 = "dplpk7";
+        String text1 = "ppnpka";
         String text2 = "ma6ina";
 
         int text1Position = -1;

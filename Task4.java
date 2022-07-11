@@ -7,6 +7,7 @@ public class Task4 {
         int count = 0;
         for (int i = 0; i < names.length; i++) {
             int tempCount = 0;
+
             for (int j = 0; j < names[i].length(); j++) {
                 tempCount += names[i].codePointAt(j);
             }

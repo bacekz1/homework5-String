@@ -1,6 +1,5 @@
 public class Task3 {
-   static byte counter = 0;
-  static boolean flag = false;
+    static boolean flag = false;
     public static void main(String[] args) {
 
         String text1 = "0ipopotam";
@@ -23,6 +22,7 @@ public class Task3 {
     static void findDifferences(String a, String b) {
         for (int i = 0; i < a.length(); i++) {
             if (a.charAt(i) != b.charAt(i)){
+                //flag control message "Difference by positions:"
                 if(!flag){
                     System.out.println("Difference by positions:");
                     flag = true;
