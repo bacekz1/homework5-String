@@ -1,7 +1,7 @@
 public class Task9 {
     public static void main(String[] args) {
 
-        String text = "asd-12sdf45-56asdf100a";
+        String text = "asd-12sdf45-56asdf100 ";
         boolean isPositive = true;
         boolean isDigit = false;
         int tempResult;
@@ -33,7 +33,7 @@ public class Task9 {
                 break;
             }
 
-            if (text.codePointAt(currentIndex) == '-') {
+            if (text.charAt(currentIndex) == '-') {
                 isPositive = false;
             }
         }
